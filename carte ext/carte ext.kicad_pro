@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.5,
-          "height": 6.0,
-          "width": 6.0
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -65,22 +65,6 @@
         ],
         [
           "courtyards_overlap|101045000|92890000|02cc6f99-10d2-49a6-acf0-719b42e05ed1|0c448e85-8b4d-48c0-a749-d8c52eca6714",
-          ""
-        ],
-        [
-          "courtyards_overlap|103980462|95899999|0b960061-1426-4509-8574-69b51c82aacd|7a60ebe0-1785-4b09-b134-94f9b6add106",
-          ""
-        ],
-        [
-          "courtyards_overlap|104206489|97584380|0b960061-1426-4509-8574-69b51c82aacd|e0705568-6e12-4768-82f9-d10550b658d2",
-          ""
-        ],
-        [
-          "courtyards_overlap|105178899|92042830|0b960061-1426-4509-8574-69b51c82aacd|91828995-b09d-4a5e-ad79-db08e864eab8",
-          ""
-        ],
-        [
-          "courtyards_overlap|105995000|100513811|0b960061-1426-4509-8574-69b51c82aacd|48b47105-6419-4285-bc98-cae890825074",
           ""
         ],
         [
@@ -186,10 +170,6 @@
         [
           "courtyards_overlap|98545000|92890000|0c448e85-8b4d-48c0-a749-d8c52eca6714|4699d592-ad79-4e74-8da5-8dd693d629f6",
           ""
-        ],
-        [
-          "courtyards_overlap|99755000|108228228|2f4dbee6-d6bd-48db-a650-e491794944a0|e973ff7d-bf2a-46d0-8727-057b50bf5c0a",
-          ""
         ]
       ],
       "meta": {
@@ -240,6 +220,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -279,7 +260,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -600,6 +581,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
