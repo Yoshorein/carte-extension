@@ -14289,28 +14289,6 @@
 			(layer "F.Fab")
 			(uuid "f510a4ee-69c1-4d68-80e6-f9b24a4ba6b8")
 		)
-		(fp_text user "+"
-			(at 9 0 90)
-			(layer "F.SilkS")
-			(uuid "6260669c-5b18-4310-a769-282347d7bc3a")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "-"
-			(at -4 0 90)
-			(layer "F.SilkS")
-			(uuid "8472979f-14ce-4755-9408-c25a6fc937e5")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 2.5 0 90)
 			(layer "F.Fab")
